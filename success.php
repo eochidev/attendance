@@ -6,36 +6,60 @@ $title = 'Success';
 
 <h1 class="text-center text-success">You Have Been Registered!</h1>
 
+
+<!-- FOR METHOD $_GET -->
+<!-- <div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">
+            <?php //echo $_GET['firstname']. ' ' . $_GET['lastname'];?>
+        </h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+            <?php //echo $_GET['specialty'];?>
+        </h6>
+        <p class="card-text">
+            <?php //echo 'Email: ' . $_GET['email'];?>
+        </p>
+        <p class="card-text">
+            <?php //echo 'phone: ' . $_GET['phone'];?>
+        </p>
+        <p class="card-text">
+            <?php //echo 'Date of Birth: ' . $_GET['dob'];?>
+        </p>
+    </div>
+</div> -->
+
+
+
 <div class="card" style="width: 18rem;">
     <div class="card-body">
         <h5 class="card-title">
-            <?php echo $_GET['firstname']. ' ' . $_GET['lastname'];?>
+            <?php echo $_POST['firstname']. ' ' . $_POST['lastname'];?>
         </h5>
         <h6 class="card-subtitle mb-2 text-muted">
-            <?php echo $_GET['specialty'];?>
+            <?php echo $_POST['specialty'];?>
         </h6>
         <p class="card-text">
-            <?php echo 'Email: ' . $_GET['email'];?>
+            <?php echo 'Email: ' . $_POST['email'];?>
         </p>
         <p class="card-text">
-            <?php echo 'phone: ' . $_GET['phone'];?>
+            <?php echo 'phone: ' . $_POST['phone'];?>
         </p>
         <p class="card-text">
-            <?php echo 'Date of Birth: ' . $_GET['dob'];?>
+            <?php echo 'Date of Birth: ' . $_POST['dob'];?>
         </p>
     </div>
 </div>
 
-<?php
+<!-- <?php
 
-    echo $_GET['firstname'];
-    echo $_GET['lastname'];
-    echo $_GET['dob'];
-    echo $_GET['specialty'];
-    echo $_GET['email'];
-    echo $_GET['phone'];
+    // echo $_GET['firstname'];
+    // echo $_GET['lastname'];
+    // echo $_GET['dob'];
+    // echo $_GET['specialty'];
+    // echo $_GET['email'];
+    // echo $_GET['phone'];
 
-?>
+?> -->
 
 
 <!-- FOOTER -->
